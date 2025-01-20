@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   const [isVisible, setIsvisible] = useState(true);
@@ -8,9 +9,9 @@ function App() {
 
   return (
     <>
-      <header>
+      <Header>
         <h1>Finally we got to React</h1>
-      </header>
+      </Header>
       <div>
         <button onClick={handleVisiblity}>
           {isVisible ? 'hide content' : 'show content'}
