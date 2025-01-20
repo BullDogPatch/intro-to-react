@@ -16,7 +16,10 @@ function App() {
           {isVisible ? 'hide content' : 'show content'}
         </button>
         {isVisible && (
-          <p>This is the part in the course I have been looking forward to.</p>
+          <p>
+            This is the part in the course I have been looking forward to the
+            most.
+          </p>
         )}
       </div>
     </>
